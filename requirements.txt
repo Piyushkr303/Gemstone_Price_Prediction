@@ -1,0 +1,7 @@
+streamlit
+scipy
+scikit-learn
+matplotlib
+seaborn
+plotly
+xgboost==1.6.2
