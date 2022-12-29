@@ -48,7 +48,7 @@ def eda_app():
             st.dataframe(df.dtypes.T)
             
         with st.expander("Stats Columns"):
-            st.dataframe(df.describe(include=np.object))
+          #  st.dataframe(df.describe(include=np.object))
             st.dataframe(df.describe(include=np.number))
             
     if submenu=='Plots':
